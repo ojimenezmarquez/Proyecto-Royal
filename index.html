@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROYECTO ROYAL</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/bootstrap.bundle.js"></script>
+</head>
+<body>
+    <div id="contenedor">
+        <div class="row">
+            <header>
+              <img src="imagenes/banner.jpg" alt="banner" width="100%">
+            </header>
+            <h1>Seleccione su Apuesta</h1>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+              <section class="">
+                <div class="row">
+                  <div class="col-2 mx-auto text-center jugada" id="Culebra">
+                    <img src="imagenes/001 (2).png" alt=""" width= "80%">
+                    <p class="text-center">Culebra</p>
+                  </div>
+                  <div class="col-2 mx-auto text-center jugada" id="León">
+                    <img src="imagenes/004.png" alt=""" width= "80%">
+                    <p class="text-center">León</p>
+                  </div>
+                  <div class="col-2 mx-auto text-center jugada" id="Rata">
+                    <img src="imagenes/007.png" alt=""" width= "80%">
+                  <p class="text-center">Rata</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-2 mx-auto text-center jugada" id="Cangrejo">
+                    <img src="imagenes/002 (2).png" alt=""" width= "80%">
+                    <p class="text-center">Cangrejo</p>
+                  </div>
+                  <div class="col-2 mx-auto text-center jugada" id="Elefante">
+                    <img src="imagenes/005.png" alt=""" width= "80%">
+                    <p class="text-center">Elefante</p>
+                  </div>
+                  <div class="col-2 mx-auto text-center jugada" id="Perro">
+                    <img src="imagenes/008.png" alt=""" width= "80%">
+                  <p class="text-center">Perro</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-2 mx-auto text-center jugada" id="Mono">
+                    <img src="imagenes/003 (2).png" alt=""" width= "80%">
+                    <p class="text-center">Mono</p>
+                  </div>
+                  <div class="col-2 mx-auto text-center jugada" id="Delfin">
+                    <img src="imagenes/006.png" alt=""" width= "80%">
+                    <p class="text-center">Delfin</p>
+                  </div>
+                  <div class="col-2 mx-auto text-center jugada" id="Aguila">
+                    <img src="imagenes/009.png" alt=""" width= "80%">
+                  <p class="text-center">Aguila</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-2 mx-auto text-center jugada" id="003-gusano">
+                    <img src="imagenes/003-gusano.png" alt=""" width= "80%">
+                    <p class="text-center">Gusano</p>
+                  </div>
+                  <div class="col-2 mx-auto text-center jugada" id="004-tigre">
+                    <img src="imagenes/004-tigre.png" alt=""" width= "80%">
+                    <p class="text-center">Tigre</p>
+                  </div>
+                  <div class="col-2 mx-auto text-center jugada" id="Camello">
+                    <img src="imagenes/010.png" alt=""" width= "80%">
+                  <p class="text-center">Camello</p>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <br>
+            <br>
+            <div class="col-lg-6">
+              <section class=" text-center">
+                <div id="ganador">
+                  <h2 class="text-center">GANADOR</h2>
+                  <br>
+                  <br>
+                  <div><img src="imagenes/007.png" alt="" width="30%"></div>
+                  <h2 id="animalganador"></h2>
+                </div>
+                <br>
+                <br>
+                <div class="d-grid gap-2">
+                  <button class="btn btn-success" type="button" id="sorteo" onclick="sorteo()">Sorteo</button>
+                </div>
+              </section>
+            </div>
+        </div>  
+        <div class="row">
+            <div class="col-lg-10 mx-auto text-center">
+              <table class="col-10 mx-auto text-center table">
+                   <thead>
+                    <tr>
+                      <th class="col-2 mx-auto text-center" scope="col">#</th>
+                      <th class="col-2 mx-auto text-center" scope="col">Apuesta</th>
+                      <th class="col-2 mx-auto text-center" scope="col">Sorteo</th>
+                      <th class="col-2 mx-auto text-center" scope="col">Hora</th>
+                      <th class="col-2 mx-auto text-center" scope="col">Ganador</th>
+                    </tr>
+                   </thead>
+                   <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Mono</td>
+                      <td>Cangrejo</td>
+                      <td>9:00 am</td>
+                      <td><img src="imagenes/no.png" alt="" width="15%"></td>
+                    </tr>
+               
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>León</td>
+                      <td>León</td>
+                      <td>10:00 am</td>
+                      <td><img src="imagenes/004.png" alt="" width="15%"></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Mono</td>
+                      <td>Mono</td>
+                      <td>11:00 am</td>
+                      <td><img src="imagenes/003 (2).png" alt="" width="15%"></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">4</th>
+                      <td>León</td>
+                      <td>Tigre</td>
+                      <td>12:00 am</td>
+                      <td><img src="imagenes/no.png" alt="" width="15%"></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">5</th>
+                      <td>Culebra</td>
+                      <td>Rata</td>
+                      <td>01:00 pm</td>
+                      <td><img src="imagenes/no.png" alt="" width="15%"></td>
+                    </tr>
+                  </tbody>
+              </table>
+            </div>
+        </div>       
+      </div>
+    </div>
+   <script src="js/bootstrap.bundle.js"></script> 
+</body>
+<footer class="py-3 ">
+    <ul class="nav justify-content-center pb-3 mb-3">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Home</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Features</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Pricing</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-white">About</a></li>
+      
+    </ul>
+    <ul class="nav justify-content-center pb-3 mb-3">
+      <i class="bi-person-fill" style="font-size: 1.5rem; color: white;"></i>
+      <i class="bi-person-fill" style="font-size: 1.5rem; color: white;"></i>
+      <i class="bi-person-fill" style="font-size: 1.5rem; color: white;"></i>
+    </ul>
+    <p class="text-center text-white">&copy; 2.023 RULETA_ROYAL@gmail.com Company, Inc</p>
+  </footer>
+  <p class="footer-copy">Todos los derechos son reservados por RULETA ROYAL.org</p>
+</html>

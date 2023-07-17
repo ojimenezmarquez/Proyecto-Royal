@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#contenedor {
+    width: 95%;
+    height: auto;
+    margin: auto;
+    padding: 5px;
+    background-color: white;
+}
+section p {
+    text-align: justify;
+}
+#morado {
+    background-color: green;
+}
